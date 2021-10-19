@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <h1>Buat Account Baru!</h1>
+    <h3>Sign Up Form</h3>
+    <form action="welcome.html" method="GET">
+      <div>
+        <label for=""> First name:</label><br /><br />
+        <input type="text" />
+      </div>
+      <br />
+      <div>
+        <label for=""> Last name:</label><br />
+        <br />
+        <input type="text" />
+      </div>
+      <br />
+      <div>
+        <label for=""> Gender:</label><br /><br />
+        <div>
+          <input type="radio" value="male" name="gender" />
+          <label for="male"> Male</label>
+        </div>
+        <div>
+          <input type="radio" value="female" name="gender" />
+          <label for="female"> Female</label>
+        </div>
+        <div>
+          <input type="radio" value="other" name="gender" />
+          <label for="other"> Other</label>
+        </div>
+      </div>
+      <br />
+      <div>
+        <label for="">Nationality: </label> <br /><br />
+        <select name="Gender" id="Gender">
+          <option value="Indonesian">Indonesian</option>
+          <option value="Malaysian">Malaysian</option>
+          <option value="American">American</option>
+          <option value="Vietnamese">Vietnamese</option>
+        </select>
+      </div>
+      <br />
+      <div>
+        <label for="">Languange Spoken: </label> <br /><br />
+        <div>
+          <input type="checkbox" />
+          <label for="Indonesia">Bahasa Indonesia</label>
+        </div>
+        <div>
+          <input type="checkbox" />
+          <label for="English">English</label>
+        </div>
+        <div>
+          <input type="checkbox" />
+          <label for="Other">Other</label>
+        </div>
+      </div>
+      <br />
+      <div>
+        <label for="">Bio:</label><br /><br />
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+      </div>
+      <button type="submit">Sign Up</button>
+    </form>
+  </body>
+</html>
